@@ -13,10 +13,16 @@ document.write(`<table> <tbody>`);
 
 for(let indiceFila = 0; indiceFila < filas; indiceFila++){
 
-    document.write(`<tr>
-      <td>Pruebas</td>
-      <td>Datos</td>
-    </tr>`);
+    document.write(`<tr>`)
+
+    for(let indiceColumna = 0; indiceColumna < columnas; indiceColumna++ ){
+
+        document.write( `<td>Pruebas</td>`) 
+    }
+
+      
+   document.write(`</tr>`);
+   
 
 }
 
